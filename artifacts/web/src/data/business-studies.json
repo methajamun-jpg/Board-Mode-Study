@@ -1,0 +1,82 @@
+{
+  "id": "business-studies",
+  "name": "Business Studies",
+  "short": "BS",
+  "color": "#e8869a",
+  "chapters": [
+    {
+      "id": "bs-planning",
+      "title": "Nature and Significance of Management",
+      "weight": "High",
+      "estimatedMinutes": 120,
+      "topics": ["Features of management", "Coordination", "Management as art, science and profession"],
+      "flashcards": [
+        {
+          "id": "bs-nsm-1",
+          "front": "Why is coordination called the essence of management?",
+          "back": "Coordination integrates individual efforts, harmonises activities and ensures that organisational goals are achieved together."
+        },
+        {
+          "id": "bs-nsm-2",
+          "front": "What are the three levels of management?",
+          "back": "Top, middle and supervisory management. They differ in authority, responsibility and time horizon."
+        }
+      ],
+      "questions": [
+        {
+          "id": "bs-nsm-q1",
+          "type": "MCQ",
+          "prompt": "Which feature of management refers to achieving goals with minimum cost?",
+          "options": ["Effectiveness", "Efficiency", "Coordination", "Universality"],
+          "answer": "Efficiency",
+          "explanation": "Efficiency means completing work with minimum cost and optimum use of resources."
+        },
+        {
+          "id": "bs-nsm-q2",
+          "type": "Short",
+          "prompt": "State two points that show management is a continuous process.",
+          "options": [],
+          "answer": "planning",
+          "explanation": "Management involves continuous planning, organising, staffing, directing and controlling."
+        }
+      ]
+    },
+    {
+      "id": "bs-marketing",
+      "title": "Marketing Management",
+      "weight": "High",
+      "estimatedMinutes": 150,
+      "topics": ["Marketing mix", "Branding and packaging", "Consumer protection"],
+      "flashcards": [
+        {
+          "id": "bs-mm-1",
+          "front": "What are the four Ps of the marketing mix?",
+          "back": "Product, price, place and promotion. Together they shape how an offering reaches and serves its market."
+        },
+        {
+          "id": "bs-mm-2",
+          "front": "What is branding?",
+          "back": "Branding gives a product a distinct name, term, sign, symbol or design that differentiates it from competitors."
+        }
+      ],
+      "questions": [
+        {
+          "id": "bs-mm-q1",
+          "type": "Long",
+          "prompt": "Explain any three functions of packaging.",
+          "options": [],
+          "answer": "protection",
+          "explanation": "Packaging protects the product, facilitates handling and storage, helps in promotion and provides convenience to consumers."
+        },
+        {
+          "id": "bs-mm-q2",
+          "type": "Numerical",
+          "prompt": "A product marked at ₹1,000 is sold after a 10% discount. Find the selling price.",
+          "options": [],
+          "answer": "900",
+          "explanation": "Discount is ₹100, so the selling price is ₹1,000 − ₹100 = ₹900."
+        }
+      ]
+    }
+  ]
+}

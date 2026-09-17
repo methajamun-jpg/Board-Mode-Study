@@ -1,0 +1,82 @@
+{
+  "id": "physical-education",
+  "name": "Physical Education",
+  "short": "PE",
+  "color": "#a9cc65",
+  "chapters": [
+    {
+      "id": "pe-training-methods",
+      "title": "Training in Sports",
+      "weight": "Medium",
+      "estimatedMinutes": 110,
+      "topics": ["Strength and endurance", "Circuit training", "Flexibility methods"],
+      "flashcards": [
+        {
+          "id": "pe-ts-1",
+          "front": "What is circuit training?",
+          "back": "A method where an athlete moves through a series of exercise stations with controlled intervals and repetitions."
+        },
+        {
+          "id": "pe-ts-2",
+          "front": "What is flexibility?",
+          "back": "The range of movement possible at a joint or group of joints, influenced by muscles, tendons and ligaments."
+        }
+      ],
+      "questions": [
+        {
+          "id": "pe-ts-q1",
+          "type": "MCQ",
+          "prompt": "Which training method uses a sequence of exercise stations?",
+          "options": ["Circuit training", "Fartlek training", "Interval training", "Continuous training"],
+          "answer": "Circuit training",
+          "explanation": "Circuit training alternates between planned stations that target different fitness components."
+        },
+        {
+          "id": "pe-ts-q2",
+          "type": "Short",
+          "prompt": "State two benefits of regular flexibility training.",
+          "options": [],
+          "answer": "range",
+          "explanation": "It improves range of movement, posture, coordination and can lower the risk of some injuries."
+        }
+      ]
+    },
+    {
+      "id": "pe-sports-nutrition",
+      "title": "Sports and Nutrition",
+      "weight": "Foundation",
+      "estimatedMinutes": 95,
+      "topics": ["Balanced diet", "Macro and micronutrients", "Hydration"],
+      "flashcards": [
+        {
+          "id": "pe-sn-1",
+          "front": "Why are carbohydrates important for athletes?",
+          "back": "They are the body's primary quick energy source, especially during moderate and high-intensity activity."
+        },
+        {
+          "id": "pe-sn-2",
+          "front": "Why is hydration important during exercise?",
+          "back": "Fluids support temperature regulation, blood volume and performance while reducing the risk of heat stress."
+        }
+      ],
+      "questions": [
+        {
+          "id": "pe-sn-q1",
+          "type": "Long",
+          "prompt": "Explain the role of a balanced diet in sports performance.",
+          "options": [],
+          "answer": "energy",
+          "explanation": "A balanced diet supplies energy, supports recovery, maintains immunity and provides nutrients for growth and repair."
+        },
+        {
+          "id": "pe-sn-q2",
+          "type": "Numerical",
+          "prompt": "An athlete drinks 250 ml of water after each of 4 training rounds. How much water is consumed?",
+          "options": [],
+          "answer": "1000",
+          "explanation": "250 ml × 4 = 1,000 ml, or 1 litre."
+        }
+      ]
+    }
+  ]
+}

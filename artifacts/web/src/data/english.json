@@ -1,0 +1,82 @@
+{
+  "id": "english",
+  "name": "English",
+  "short": "EN",
+  "color": "#a79df1",
+  "chapters": [
+    {
+      "id": "en-reading-comprehension",
+      "title": "Reading Comprehension",
+      "weight": "High",
+      "estimatedMinutes": 110,
+      "topics": ["Inference questions", "Vocabulary in context", "Tone and purpose"],
+      "flashcards": [
+        {
+          "id": "en-rc-1",
+          "front": "What is the best first step in a comprehension passage?",
+          "back": "Read the questions once, then read the passage actively for the central idea, tone and evidence."
+        },
+        {
+          "id": "en-rc-2",
+          "front": "What does an inference question test?",
+          "back": "It tests a conclusion that is supported by clues in the passage even when the exact words are not stated."
+        }
+      ],
+      "questions": [
+        {
+          "id": "en-rc-q1",
+          "type": "MCQ",
+          "prompt": "A writer's attitude toward a subject is called the:",
+          "options": ["Tone", "Plot", "Setting", "Conflict"],
+          "answer": "Tone",
+          "explanation": "Tone describes the writer's attitude or emotional position toward the subject."
+        },
+        {
+          "id": "en-rc-q2",
+          "type": "Short",
+          "prompt": "How can a reader identify the central idea of a passage?",
+          "options": [],
+          "answer": "repeated",
+          "explanation": "Look for the idea repeated across the opening, supporting evidence and conclusion of the passage."
+        }
+      ]
+    },
+    {
+      "id": "en-notice-writing",
+      "title": "Notice Writing",
+      "weight": "Medium",
+      "estimatedMinutes": 90,
+      "topics": ["Format and heading", "Concise details", "Issuer and designation"],
+      "flashcards": [
+        {
+          "id": "en-nw-1",
+          "front": "What makes a notice effective?",
+          "back": "A clear heading, concise relevant details, a date, and the issuer's name and designation in the required format."
+        },
+        {
+          "id": "en-nw-2",
+          "front": "Why should a notice avoid long paragraphs?",
+          "back": "A notice is a quick public announcement; short, scannable details help readers act without searching through prose."
+        }
+      ],
+      "questions": [
+        {
+          "id": "en-nw-q1",
+          "type": "Long",
+          "prompt": "Draft a notice inviting students to a commerce revision workshop.",
+          "options": [],
+          "answer": "heading",
+          "explanation": "A complete notice needs an institution name, NOTICE heading, date, title, concise body, and issuer designation."
+        },
+        {
+          "id": "en-nw-q2",
+          "type": "Short",
+          "prompt": "Mention two details that must appear in the body of a notice.",
+          "options": [],
+          "answer": "date",
+          "explanation": "The body should make the event clear with relevant details such as date, time, venue, eligibility or contact information."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "accountancy",
+  "name": "Accountancy",
+  "short": "AC",
+  "color": "#f2ad43",
+  "chapters": [
+    {
+      "id": "ac-partnership-fundamentals",
+      "title": "Partnership Fundamentals",
+      "weight": "High",
+      "estimatedMinutes": 150,
+      "topics": ["Meaning and features of partnership", "Profit-sharing ratio", "Goodwill and past adjustments"],
+      "flashcards": [
+        {
+          "id": "ac-pf-1",
+          "front": "What is the importance of a partnership deed?",
+          "back": "It records the mutually agreed terms between partners and reduces ambiguity when the Partnership Act is silent."
+        },
+        {
+          "id": "ac-pf-2",
+          "front": "How is sacrificing ratio calculated?",
+          "back": "Sacrificing ratio = Old ratio − New ratio. It is used when a new partner is admitted."
+        }
+      ],
+      "questions": [
+        {
+          "id": "ac-pf-q1",
+          "type": "MCQ",
+          "prompt": "In the absence of an agreement, partners share profits and losses:",
+          "options": ["In their capital ratio", "Equally", "In their sacrificing ratio", "In their current account ratio"],
+          "answer": "Equally",
+          "explanation": "The Indian Partnership Act provides for equal sharing when the deed is silent."
+        },
+        {
+          "id": "ac-pf-q2",
+          "type": "Short",
+          "prompt": "State two features of a partnership firm.",
+          "options": [],
+          "answer": "agreement",
+          "explanation": "A partnership is formed by agreement and involves a business carried on by all or any one acting for all."
+        }
+      ]
+    },
+    {
+      "id": "ac-company-accounts",
+      "title": "Company Accounts",
+      "weight": "High",
+      "estimatedMinutes": 180,
+      "topics": ["Issue of shares", "Forfeiture and reissue", "Balance sheet presentation"],
+      "flashcards": [
+        {
+          "id": "ac-ca-1",
+          "front": "What is securities premium?",
+          "back": "The excess of issue price over the face value of a share is credited to the Securities Premium account."
+        },
+        {
+          "id": "ac-ca-2",
+          "front": "What is meant by forfeiture of shares?",
+          "back": "It is the cancellation of shares when a shareholder fails to pay calls due on those shares."
+        }
+      ],
+      "questions": [
+        {
+          "id": "ac-ca-q1",
+          "type": "Numerical",
+          "prompt": "A share of ₹10 is issued at ₹12. What amount is credited to Securities Premium per share?",
+          "options": [],
+          "answer": "2",
+          "explanation": "Securities premium is the issue price minus face value: ₹12 − ₹10 = ₹2."
+        },
+        {
+          "id": "ac-ca-q2",
+          "type": "Long",
+          "prompt": "Explain the accounting treatment for forfeiture of shares.",
+          "options": [],
+          "answer": "share capital",
+          "explanation": "Share Capital is debited with called-up capital, unpaid calls are credited, and the Share Forfeiture account is credited with the amount received."
+        }
+      ]
+    }
+  ]
+}

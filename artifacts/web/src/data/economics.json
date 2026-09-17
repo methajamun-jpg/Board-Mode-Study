@@ -1,0 +1,82 @@
+{
+  "id": "economics",
+  "name": "Economics",
+  "short": "EC",
+  "color": "#45c9b7",
+  "chapters": [
+    {
+      "id": "ec-national-income",
+      "title": "National Income",
+      "weight": "High",
+      "estimatedMinutes": 150,
+      "topics": ["Circular flow of income", "GDP, GNP and NNP", "Value added method"],
+      "flashcards": [
+        {
+          "id": "ec-ni-1",
+          "front": "What is GDP?",
+          "back": "Gross Domestic Product is the market value of final goods and services produced within a country's domestic territory during a period."
+        },
+        {
+          "id": "ec-ni-2",
+          "front": "Why are intermediate goods excluded from national income?",
+          "back": "Including them would count the value of the same output more than once, causing double counting."
+        }
+      ],
+      "questions": [
+        {
+          "id": "ec-ni-q1",
+          "type": "MCQ",
+          "prompt": "When marginal utility is zero, total utility is:",
+          "options": ["Minimum", "Maximum", "Negative", "Constant"],
+          "answer": "Maximum",
+          "explanation": "Total utility reaches its maximum when marginal utility becomes zero."
+        },
+        {
+          "id": "ec-ni-q2",
+          "type": "Short",
+          "prompt": "What is the difference between real GDP and nominal GDP?",
+          "options": [],
+          "answer": "prices",
+          "explanation": "Real GDP is measured at constant prices, while nominal GDP is measured at current prices."
+        }
+      ]
+    },
+    {
+      "id": "ec-money-banking",
+      "title": "Money and Banking",
+      "weight": "Medium",
+      "estimatedMinutes": 120,
+      "topics": ["Functions of money", "Credit creation", "Central bank functions"],
+      "flashcards": [
+        {
+          "id": "ec-mb-1",
+          "front": "Name two functions of money.",
+          "back": "Money acts as a medium of exchange and a measure of value; it also stores value and standardises deferred payments."
+        },
+        {
+          "id": "ec-mb-2",
+          "front": "What is repo rate?",
+          "back": "It is the rate at which the central bank lends short-term funds to commercial banks against securities."
+        }
+      ],
+      "questions": [
+        {
+          "id": "ec-mb-q1",
+          "type": "Long",
+          "prompt": "Explain any three functions of the central bank.",
+          "options": [],
+          "answer": "issue",
+          "explanation": "The central bank issues currency, acts as banker to the government, controls credit, and serves as lender of last resort."
+        },
+        {
+          "id": "ec-mb-q2",
+          "type": "Numerical",
+          "prompt": "If a bank receives a primary deposit of ₹10,000 and the reserve ratio is 20%, what is the maximum deposit creation multiplier?",
+          "options": [],
+          "answer": "5",
+          "explanation": "The deposit multiplier is 1 / reserve ratio = 1 / 0.20 = 5."
+        }
+      ]
+    }
+  ]
+}
