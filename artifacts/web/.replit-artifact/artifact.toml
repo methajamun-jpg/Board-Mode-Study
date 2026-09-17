@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Board Mode"
+description = "A mobile-first CBSE Class 12 Commerce study companion with adaptive planning, focused study sessions, flashcards, PYQ practice, mistake tracking, and local progress storage."
+version = "1.0.0"
+id = "artifacts/web"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22333
+
+[services.development]
+run = "pnpm --filter @workspace/web run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/web", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/web/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22333"
+BASE_PATH = "/"
