@@ -1,0 +1,1 @@
+- [GitHub write access](github-write-access.md) — use a GitHub connection with repository push permission when publishing commits through Replit.
